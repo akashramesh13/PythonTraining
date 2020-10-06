@@ -35,4 +35,56 @@ while(tries <= 10):
 else:
     print("You have used all 10 tries! Sorry!")
 
+ # -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
+# else condition will work
+
+num = 11
+while num>0:
+    num-=1
+    if num%2==0:
+        continue    
+    print(num, end=", ")
+
     
+else:
+    print("All numbers are odd in the above example!")
+
+
+#else condition wont work
+num = 10
+while num>0:
+    if num%2==0:
+        print("Breaking out, else wont work")
+        break
+
+    
+else:
+    print("This wont be executed!")
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# number squares multiplication using different ways
+
+#using for-in loop
+squares = {"1":1, "2": 4, "3": 9, "4": 16, "5": 25}
+for num in squares:
+    print(squares[num]*2)
+
+#using keys
+squares = {"1":1, "2": 4, "3": 9, "4": 16, "5": 25}
+
+for key in squares.keys():
+    squares[key] = squares[key] * 2
+print(squares)
+
+
+#using values
+squares = {"1":1, "2": 4, "3": 9, "4": 16, "5": 25}
+for values in squares.values():
+    print(values*2)
+    
+#using items
+squares = {"1":1, "2": 4, "3": 9, "4": 16, "5": 25}
+for key, values in squares.items():
+    squares[key] = values*2
+print(squares)
