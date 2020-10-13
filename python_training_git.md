@@ -64,3 +64,16 @@
 | Piyush Ranjan           | https://github.com/piyushranjan1234/python-training/tree/master/day5 |
 | Sai Akhil Kolla         |                             NOT PROVIDED                             |
 | Anurag Sinha            |                             NOT PROVIDED                             |
+
+# Day 6
+
+| Name                    |                           Github Link                            |
+| ----------------------- | :--------------------------------------------------------------: |
+| Akash R                 | https://github.com/akashramesh13/PythonTraining/tree/master/day6 |
+| Himanshu Dubey          |  https://github.com/hdspook/Python-Workspace/tree/main/Day%206   |
+| Narsepalli Vamsi Kishan |   https://github.com/nvk1152/python-tasks/tree/main/sample-env   |
+| Tamil Priya             |                           NOT PROVIDED                           |
+| Avik Dey                |                           NOT PROVIDED                           |
+| Piyush Ranjan           |                        DID NOT UPDATE YET                        |
+| Sai Akhil Kolla         |                           NOT PROVIDED                           |
+| Anurag Sinha            |                           NOT PROVIDED                           |
