@@ -19,7 +19,6 @@
 | Akash R                 | https://github.com/akashramesh13/PythonTraining/blob/master/day2.py  |
 | Himanshu Dubey          |    https://github.com/hdspook/Python-Workspace/tree/main/Day%202     |
 | Narsepalli Vamsi Kishan |     https://github.com/nvk1152/python-tasks/tree/main/Day2-Tasks     |
-| Tamil Priya             |                             NOT PROVIDED                             |
 | Sai Akhil Kolla         |                  https://github.com/kollaa/day2task                  |
 | Piyush Ranjan           | https://github.com/piyushranjan1234/python-training/tree/master/day2 |
 | Avik Dey                |                             NOT PROVIDED                             |
@@ -71,7 +70,7 @@
 | Sai Akhil Kolla         |                 https://github.com/kollaa/day6tasks                  |
 | Piyush Ranjan           | https://github.com/piyushranjan1234/python-training/tree/master/day6 |
 | Avik Dey                |                             NOT PROVIDED                             |
-| Anurag Sinha            |                             NOT PROVIDED                             |
+| Anurag Sinha            |     https://github.com/Anurag-Code-Hub/python/tree/master/Day-6      |
 
 ## Day 7
 
@@ -83,4 +82,4 @@
 | Sai Akhil Kolla         |                             NOT UPDATED                              |
 | Piyush Ranjan           | https://github.com/piyushranjan1234/python-training/tree/master/day7 |
 | Avik Dey                |                             NOT PROVIDED                             |
-| Anurag Sinha            |                             NOT PROVIDED                             |
+| Anurag Sinha            |     https://github.com/Anurag-Code-Hub/python/tree/master/Day-7      |
