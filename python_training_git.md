@@ -79,7 +79,7 @@
 | Akash R                 |   https://github.com/akashramesh13/PythonTraining/tree/master/day7   |
 | Himanshu Dubey          |                          DID NOT UPDATE YET                          |
 | Narsepalli Vamsi Kishan |                            DID NOT UPDATE                            |
-| Sai Akhil Kolla         |                             NOT UPDATED                              |
+| Sai Akhil Kolla         |                 https://github.com/kollaa/day7tasks                  |
 | Piyush Ranjan           | https://github.com/piyushranjan1234/python-training/tree/master/day7 |
 | Avik Dey                |                             NOT PROVIDED                             |
 | Anurag Sinha            |     https://github.com/Anurag-Code-Hub/python/tree/master/Day-7      |
