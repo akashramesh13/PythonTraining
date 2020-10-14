@@ -44,19 +44,19 @@ class DevelopersByDevID(Resource):
 
     def get(self, dev_id):
         abort_if_dev_doesnt_exist(dev_id)
-        return 200, {dev_id: DEVELOPERS[dev_id]}
+        return {dev_id: DEVELOPERS[dev_id]}
 
 
 class TasksByID(Resource):
     def get(self, task_id):
         abort_if_task_doesnt_exist(task_id)
-        return 200, {task_id: TASKS[task_id]}
+        return {task_id: TASKS[task_id]}
 
 
 class TasksByDeveloperId(Resource):
     def get(self, dev_id):
         abort_if_dev_doesnt_exist(dev_id)
-        return 200, {f"{DEVELOPERS[dev_id]}": DEVELOPER_TASKS[DEVELOPERS[dev_id]]}
+        return {f"{DEVELOPERS[dev_id]}": DEVELOPER_TASKS[DEVELOPERS[dev_id]]}
 
 
 class IndividualTasksByDevId(Resource):
@@ -64,8 +64,8 @@ class IndividualTasksByDevId(Resource):
         abort_if_dev_doesnt_exist(dev_id)
         abort_if_task_not_related(dev_id, task_id)
         my_task = DEVELOPER_TASKS[DEVELOPERS[dev_id]]
-        return 200, {f"{DEVELOPERS[dev_id]} with task ID {task_id} is ": my_task[task_id]
-                     }
+        return {f"{DEVELOPERS[dev_id]} with task ID {task_id} is ": my_task[task_id]
+                }
 
 
 api.add_resource(TasksByID, "/tasks/<int:task_id>")
