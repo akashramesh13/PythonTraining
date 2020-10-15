@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+autopep8 = "*"
+
+[packages]
+pytest = "*"
+comtypes = "*"
+fpdf = "*"
+flask-sqlalchemy = "*"
+flask = "*"
+flask-restful = "*"
+pylint-flask = "*"
+requests = "*"
+
+[requires]
+python_version = "3.8"

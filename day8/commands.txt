@@ -1,0 +1,9 @@
+url="http://localhost:8080/users/"
+put_request = put(url, data = {"id" : 2, "username":"Vignesh", "email":"vinspace@fb.com"})
+put_request.text
+post_request1 = post(url, data = {"id" : 2, "username":"santhosh", "email":"sanspace@git.com"})
+post_request1.text
+post_request2 = post(url, data = {"id" : 1, "username":"akashramesh", "email":"abc@xyz.com"})
+post_request2.text
+get_request = get(url)
+get_request.text
