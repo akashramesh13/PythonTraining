@@ -77,9 +77,33 @@
 | Name                    |                             Github Link                              |
 | ----------------------- | :------------------------------------------------------------------: |
 | Akash R                 |   https://github.com/akashramesh13/PythonTraining/tree/master/day7   |
-| Himanshu Dubey          |                          DID NOT UPDATE YET                          |
+| Himanshu Dubey          |    https://github.com/hdspook/Python-Workspace/tree/main/Day%207     |
 | Narsepalli Vamsi Kishan |                            DID NOT UPDATE                            |
 | Sai Akhil Kolla         |                 https://github.com/kollaa/day7tasks                  |
 | Piyush Ranjan           | https://github.com/piyushranjan1234/python-training/tree/master/day7 |
 | Avik Dey                |                             NOT PROVIDED                             |
 | Anurag Sinha            |     https://github.com/Anurag-Code-Hub/python/tree/master/Day-7      |
+
+## Day 8
+
+| Name                    |                           Github Link                            |
+| ----------------------- | :--------------------------------------------------------------: |
+| Akash R                 | https://github.com/akashramesh13/PythonTraining/tree/master/day8 |
+| Himanshu Dubey          |  https://github.com/hdspook/Python-Workspace/tree/main/Day%208   |
+| Narsepalli Vamsi Kishan |                          DID NOT UPDATE                          |
+| Sai Akhil Kolla         |               https://github.com/kollaa/day8tasks                |
+| Piyush Ranjan           |                          DID NOT UPDATE                          |
+| Avik Dey                |                           NOT PROVIDED                           |
+| Anurag Sinha            |                          DID NOT UPDATE                          |
+
+## Day 9
+
+| Name                    |                           Github Link                            |
+| ----------------------- | :--------------------------------------------------------------: |
+| Akash R                 | https://github.com/akashramesh13/PythonTraining/tree/master/day9 |
+| Himanshu Dubey          |                          DID NOT UPDATE                          |
+| Narsepalli Vamsi Kishan |                          DID NOT UPDATE                          |
+| Sai Akhil Kolla         |                          DID NOT UPDATE                          |
+| Piyush Ranjan           |                          DID NOT UPDATE                          |
+| Avik Dey                |                           NOT PROVIDED                           |
+| Anurag Sinha            |                          DID NOT UPDATE                          |
