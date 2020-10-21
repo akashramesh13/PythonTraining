@@ -119,3 +119,15 @@
 | Piyush Ranjan           |                          DID NOT UPDATE                          |
 | Avik Dey                |                           NOT PROVIDED                           |
 | Anurag Sinha            |                          DID NOT UPDATE                          |
+
+## Day 12
+
+| Name                    |                           Github Link                            |
+| ----------------------- | :--------------------------------------------------------------: |
+| Akash R                 | https://github.com/akashramesh13/PythonTraining/tree/master/day11 |
+| Himanshu Dubey          |                          DID NOT UPDATE                         |
+| Narsepalli Vamsi Kishan |                          DID NOT UPDATE                          |
+| Sai Akhil Kolla         |                          DID NOT UPDATE                          |
+| Piyush Ranjan           |                          DID NOT UPDATE                          |
+| Avik Dey                |                           NOT PROVIDED                           |
+| Anurag Sinha            |                          DID NOT UPDATE                          |
