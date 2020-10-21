@@ -1,4 +1,4 @@
-from .models import Vehicle
+from .models import Vehicle, Brand
 from django.http import HttpResponseRedirect
 from django.shortcuts import get_object_or_404, render
 from django.urls import reverse
@@ -13,6 +13,12 @@ class IndexView(generic.ListView):
     def get_queryset(self):
         return Vehicle.objects.all()
 
+class AddView(generic.ListView):
+    template_name = "vehicles/add.html"
+    context_object_name = 'vehicle_list'
+
+    def get_queryset(self):
+        return Vehicle.objects.all()
 
 
 def vehicle_by_id(request,vehicle_id):
@@ -26,11 +32,6 @@ def brand_by_id(request, vehicle_id, brand_id):
     brand = vehicle.brand_set.filter(pk=brand_id)
     context = {"brand" : brand[0]}
     return render(request, 'vehicles/brands.html',context)
-
-def add(request):
-    vehicles = Vehicle.objects.all()
-    context = {"vehicle_list" : vehicles}
-    return render(request, 'vehicles/add.html',context)
 
 def insert(request):
     vehicle_id = request.POST['vehicle']
