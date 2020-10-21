@@ -4,7 +4,7 @@ from django.db import models
 class Vehicle(models.Model):
 
     def __str__(self):
-        return f"{self.vehicle_type} released on: {self.release_date}"
+        return f"{self.vehicle_type} released on: {self.release_date.date()}"
 
     vehicle_type = models.CharField(max_length=200)
     release_date = models.DateTimeField('date of release')

@@ -1,0 +1,5 @@
+<ul>
+    {% for vehicle in vehicle_list %}
+        <li><a href="/vehicles/{{ vehicle.id }}/">  {{ vehicle.vehicle_type }}</a></li>
+    {% endfor %}
+</ul>
