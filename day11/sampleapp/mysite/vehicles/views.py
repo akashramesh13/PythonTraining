@@ -17,8 +17,8 @@ def index(request):
 def vehicle_by_id(request,vehicle_id):
     vehicle = get_object_or_404(Vehicle, pk=vehicle_id)
     brands = vehicle.brand_set.all()
-    brands_dict = {brand.id : (brand.brand_name, brand.price)for brand in brands }
-    return HttpResponse(json.dumps(brands_dict))
+    context = {"brands": brands}
+    return render(request,'vehicles/vehicles.html',context)
 
 def brand_by_id(request, vehicle_id, brand_id):
     vehicle = get_object_or_404(Vehicle, pk=vehicle_id)
