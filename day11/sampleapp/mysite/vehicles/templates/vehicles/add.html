@@ -1,0 +1,12 @@
+<h1>Add new item</h1>
+
+<form action="{% url 'insert' %}" method="post">
+{% csrf_token %}
+{% for vehicle in vehicle_list %}
+    <input type="radio" name="vehicle" id="vehicle{{ forloop.counter }}" value="{{ vehicle.id }}">
+    <label for="vehicle{{ forloop.counter }}">{{ vehicle.vehicle_type }}</label><br>
+{% endfor %}
+    <input type="text" name="item_name"/>
+    <input type="number" name="item_price">
+<input type="submit" value="Add">
+</form>

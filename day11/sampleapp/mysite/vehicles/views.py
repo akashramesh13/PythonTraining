@@ -1,17 +1,18 @@
-from django.http import HttpResponse
-from .models import Vehicle,Brand
-from django.shortcuts import get_object_or_404
-from django.template import loader
-from django.shortcuts import render
-import json
-def index(request):
+from .models import Vehicle
+from django.http import HttpResponseRedirect
+from django.shortcuts import get_object_or_404, render
+from django.urls import reverse
+from django.urls import reverse
+from django.views import generic
 
-    vehicles = Vehicle.objects.all()
 
-    context = {
-        'vehicle_list': vehicles,
-    }
-    return render(request,'vehicles/index.html',context)
+class IndexView(generic.ListView):
+    template_name = 'vehicles/index.html'
+    context_object_name = 'vehicle_list'
+
+    def get_queryset(self):
+        return Vehicle.objects.all()
+
 
 
 def vehicle_by_id(request,vehicle_id):
@@ -25,3 +26,17 @@ def brand_by_id(request, vehicle_id, brand_id):
     brand = vehicle.brand_set.filter(pk=brand_id)
     context = {"brand" : brand[0]}
     return render(request, 'vehicles/brands.html',context)
+
+def add(request):
+    vehicles = Vehicle.objects.all()
+    context = {"vehicle_list" : vehicles}
+    return render(request, 'vehicles/add.html',context)
+
+def insert(request):
+    vehicle_id = request.POST['vehicle']
+    vehicle = Vehicle.objects.get(pk=vehicle_id)
+    brand_name = request.POST['item_name']
+    price = request.POST['item_price']
+    brand = vehicle.brand_set.create(brand_name = brand_name, price = price)
+    brand.save()
+    return HttpResponseRedirect(reverse('details', args=(vehicle_id,)))
