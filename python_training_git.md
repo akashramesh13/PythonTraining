@@ -103,7 +103,7 @@
 | Akash R                 | https://github.com/akashramesh13/PythonTraining/tree/master/day9 |
 | Himanshu Dubey          |                          DID NOT UPDATE                          |
 | Narsepalli Vamsi Kishan |                          DID NOT UPDATE                          |
-| Sai Akhil Kolla         |                          DID NOT UPDATE                          |
+| Sai Akhil Kolla         |                          https://github.com/kollaa/day9task                          |
 | Piyush Ranjan           |                          DID NOT UPDATE                          |
 | Avik Dey                |                           NOT PROVIDED                           |
 | Anurag Sinha            |                          DID NOT UPDATE                          |
@@ -115,7 +115,7 @@
 | Akash R                 | https://github.com/akashramesh13/PythonTraining/tree/master/day11 |
 | Himanshu Dubey          |                          https://github.com/hdspook/Python-Workspace/tree/main/Day%2011%20(Django)                          |
 | Narsepalli Vamsi Kishan |                          DID NOT UPDATE                          |
-| Sai Akhil Kolla         |                          DID NOT UPDATE                          |
+| Sai Akhil Kolla         |                          https://github.com/kollaa/day11and12                         |
 | Piyush Ranjan           |                          DID NOT UPDATE                          |
 | Avik Dey                |                           NOT PROVIDED                           |
 | Anurag Sinha            |                          DID NOT UPDATE                          |
@@ -125,9 +125,22 @@
 | Name                    |                           Github Link                            |
 | ----------------------- | :--------------------------------------------------------------: |
 | Akash R                 | https://github.com/akashramesh13/PythonTraining/tree/master/day11 |
-| Himanshu Dubey          |                          DID NOT UPDATE                         |
+| Himanshu Dubey          |                          https://github.com/hdspook/Python-Workspace/tree/main/Day%2012%20(Django%20-%20Quiz%20App)                         |
 | Narsepalli Vamsi Kishan |                          DID NOT UPDATE                          |
-| Sai Akhil Kolla         |                          DID NOT UPDATE                          |
+| Sai Akhil Kolla         |                          https://github.com/kollaa/day11and12                          |
+| Piyush Ranjan           |                          DID NOT UPDATE                          |
+| Avik Dey                |                           NOT PROVIDED                           |
+| Anurag Sinha            |                          DID NOT UPDATE                          |
+
+
+## Day 13
+
+| Name                    |                           Github Link                            |
+| ----------------------- | :--------------------------------------------------------------: |
+| Akash R                 | https://github.com/akashramesh13/PythonTraining/tree/master/day11 |
+| Himanshu Dubey          |                                                  |
+| Narsepalli Vamsi Kishan |                          DID NOT UPDATE                          |
+| Sai Akhil Kolla         |                                                 |
 | Piyush Ranjan           |                          DID NOT UPDATE                          |
 | Avik Dey                |                           NOT PROVIDED                           |
 | Anurag Sinha            |                          DID NOT UPDATE                          |
