@@ -13,6 +13,10 @@ class Vehicle(models.Model):
     vehicle_type = models.CharField(max_length=200)
     release_date = models.DateTimeField('date of release')
 
+    was_released_recently.admin_order_field = 'release_date'
+    was_released_recently.boolean = True
+    was_released_recently.short_description = 'Released recently?'
+
 
 class Brand(models.Model):
 
